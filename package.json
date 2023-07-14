@@ -1,0 +1,17 @@
+{
+  "name": "Learning-Webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MHMDHO3N/Learning-Webpack.git",
+  "author": "MHMD-HO3N <mohammad.qavizi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
