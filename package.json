@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "ts-loader": "^9.4.4"
+  }
+}
