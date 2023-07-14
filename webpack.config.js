@@ -39,7 +39,7 @@ module.exports = {
   //   A webpack plugin is a JavaScript object that has an apply method. This apply method is called by the webpack compiler, giving access to the entire compilation lifecycle.
   plugins: [
     new webpack.ProgressPlugin(),
-    new HtmlWebpackPlugin({ template: "./src/index.html" }),
+    new HtmlWebpackPlugin({ template: "./public/index.html" }),
     // The ProgressPlugin is used to customize how progress should be reported during compilation,
     // and HtmlWebpackPlugin will generate a HTML file including the my-first-webpack.bundle.js file using a script tag.
   ],

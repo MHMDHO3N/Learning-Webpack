@@ -17,4 +17,8 @@
 
 // Prefixing with -! will disable all configured preLoaders and loaders but not postLoaders
 
+import data from "!!ts-loader?modules!./data.ts";
+
 console.warn("Mansour");
+
+console.log(JSON.stringify(data));
