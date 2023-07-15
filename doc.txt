@@ -1,0 +1,13 @@
+webpack : module bundler
+webpack-cli : provides a collection of tools to boost speed and efficiency (provides guidance to create a new webpack project, execute webpack, monitoring file changes, and more)
+webpack-dev-server : code modification tracer
+babel-loader : transpiles JavaScript code
+@babel/preset-react : contains presets for all React plugins
+@babel/preset-env : make JavaScript bundles smaller
+html-webpack-plugin : adding bundled files to index.html file
+
+===================================================================
+
+(*)output publicPath specifies the virtual directory in web server from where bundled file, app.js is going to get served up from. Keep in mind, the word server when using publicPath can be either webpack-dev-server or express server or other server that you can use with webpack.
+(*)add hot module replacement (HMR) to our development environment. HMR exchanges, adds or removes modules while the application is running without requiring a full reload, making our development environment more efficient.
+
