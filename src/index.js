@@ -1,3 +1,3 @@
 import "./style.css";
 
-document.getElementById("Heading").innerHTML = "Hello";
+document.getElementById("Heading").innerHTML = process.env.SOMETHING;
