@@ -46,9 +46,14 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: ["", ".js", ".jsx"],
+    modules: [path.resolve(__dirname, "src"), "node_modules"],
+  },
   devServer: {
     hot: true,
     port: 3000,
     open: true,
+    historyApiFallback: true,
   },
 };
